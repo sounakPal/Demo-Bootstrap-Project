@@ -1,0 +1,119 @@
+body{
+background:#F1F1F1;
+}
+header{
+    .row{
+        margin:0;
+        }
+        .logout{
+         margin-top:20px;   
+        }
+         img{
+             width:200px;
+         }
+}
+
+.main-content{
+    background:#fff;
+    border:1px solid #ccc;
+    border-radius:10px;
+    min-height:600px;
+   margin-bottom:20px;
+    h3{
+    border-bottom: 1px solid #CFCFCF;
+    }
+}
+
+ol.pagination-dash
+{
+    margin: 0 auto;
+    width: 300px;
+    height: 30px;
+    li{
+        width: auto;
+        height: auto;
+        padding: 5px 10px;
+        background: #E7E7E7;
+        float: left;
+        list-style: none;
+        cursor: pointer;
+        border-right: 2px solid white;
+    &:hover {
+        background:#ccc;
+            }
+        }
+      a{
+        width: auto;
+        height: auto;
+        padding: 5px 10px;
+        background: #E7E7E7;
+        float: left;
+        list-style: none;
+        cursor: pointer;
+        border-right: 2px solid white;
+    &:hover {
+        background:#ccc;
+            }
+        }
+        li.active{
+            background:#cccccc;
+        }
+}
+
+.in-box-cisco{
+    border:2px solid #cacaca;
+    margin-bottom:20px;
+    .border-radius(4px);
+    .head-in-box{
+            img{
+                width:100%;
+                max-width:120px;
+            }
+    
+    }
+  
+}
+.deep-grey{
+background:#cacaca;
+div{
+        border-right:2px solid #fff;
+        border-bottom:2px solid #fff;
+        &:last-child {
+                border-right:0;
+                    }
+        }
+}
+.light-grey{
+background:#F5F5F5;
+div{
+        border-right:2px solid #fff;
+        border-bottom:2px solid #fff;
+        &:last-child {
+                border-right:0;
+                    }
+        }
+}
+ .bg-grey{
+background:#A0A0A0;
+font-weight:bold;
+border:1px solid black;
+    div{
+        border-right:2px solid #fff;
+        border-bottom:2px solid #fff;
+        &:last-child {
+                border-right:0;
+                    }
+        }
+}
+
+
+@media(max-width:768px){
+    .navbar-collapse.collapse.in{
+    height:1px;
+    }
+}
+.border-radius(@radius: 5px) {
+  -webkit-border-radius: @radius;
+     -moz-border-radius: @radius;
+          border-radius: @radius;
+}
